@@ -1,14 +1,25 @@
 {
   "name": "airline-logos",
-  "description": "Vector (SVG) logo assets for airline and aviation brands, redrawn from original raster sources. Each brand provides a transparent master and a white-background variant alongside its original source image.",
-  "asset_count": 15,
+  "description": "Vector (SVG) logo assets for airline and aviation brands, redrawn from original raster sources. Each brand provides a transparent master and a white-background variant.",
+  "asset_count": 17,
   "brands": {
+    "airexplore": {
+      "name": "AirExplore",
+      "svg": {
+        "master": "airexplore.svg",
+        "white": "airexplore_white.svg"
+      },
+      "colors": [
+        "#1A1819",
+        "#2F346D",
+        "#E8BB50"
+      ]
+    },
     "ascend_airways": {
       "name": "ASCEND Airways",
-      "source": "source/ascend_airways.png",
       "svg": {
-        "master": "svg/ascend_airways.svg",
-        "white": "svg/ascend_airways_white.svg"
+        "master": "ascend_airways.svg",
+        "white": "ascend_airways_white.svg"
       },
       "source_dimensions": {
         "width": 5630,
@@ -21,10 +32,9 @@
     },
     "ascend_airways_malaysia": {
       "name": "ASCEND Airways Malaysia",
-      "source": "source/ascend_airways_malaysia.png",
       "svg": {
-        "master": "svg/ascend_airways_malaysia.svg",
-        "white": "svg/ascend_airways_malaysia_white.svg"
+        "master": "ascend_airways_malaysia.svg",
+        "white": "ascend_airways_malaysia_white.svg"
       },
       "source_dimensions": {
         "width": 3450,
@@ -37,10 +47,9 @@
     },
     "aviaam_leasing": {
       "name": "AviaAM Leasing",
-      "source": "source/aviaam_leasing.png",
       "svg": {
-        "master": "svg/aviaam_leasing.svg",
-        "white": "svg/aviaam_leasing_white.svg"
+        "master": "aviaam_leasing.svg",
+        "white": "aviaam_leasing_white.svg"
       },
       "source_dimensions": {
         "width": 3360,
@@ -58,10 +67,9 @@
     },
     "avion_express": {
       "name": "Avion Express",
-      "source": "source/avion_express.jpg",
       "svg": {
-        "master": "svg/avion_express.svg",
-        "white": "svg/avion_express_white.svg"
+        "master": "avion_express.svg",
+        "white": "avion_express_white.svg"
       },
       "source_dimensions": {
         "width": 1280,
@@ -80,10 +88,9 @@
     },
     "bbn_airlines": {
       "name": "BBN Airlines",
-      "source": "source/bbn_airlines.png",
       "svg": {
-        "master": "svg/bbn_airlines.svg",
-        "white": "svg/bbn_airlines_white.svg"
+        "master": "bbn_airlines.svg",
+        "white": "bbn_airlines_white.svg"
       },
       "source_dimensions": {
         "width": 1980,
@@ -95,10 +102,9 @@
     },
     "bbn_indonesia": {
       "name": "BBN Indonesia",
-      "source": "source/bbn_indonesia.png",
       "svg": {
-        "master": "svg/bbn_indonesia.svg",
-        "white": "svg/bbn_indonesia_white.svg"
+        "master": "bbn_indonesia.svg",
+        "white": "bbn_indonesia_white.svg"
       },
       "source_dimensions": {
         "width": 2235,
@@ -124,10 +130,9 @@
     },
     "fitsair": {
       "name": "FitsAir",
-      "source": "source/fitsair.png",
       "svg": {
-        "master": "svg/fitsair.svg",
-        "white": "svg/fitsair_white.svg"
+        "master": "fitsair.svg",
+        "white": "fitsair_white.svg"
       },
       "source_dimensions": {
         "width": 3380,
@@ -140,10 +145,9 @@
     },
     "hellojets": {
       "name": "HelloJets",
-      "source": "source/hellojets.png",
       "svg": {
-        "master": "svg/hellojets.svg",
-        "white": "svg/hellojets_white.svg"
+        "master": "hellojets.svg",
+        "white": "hellojets_white.svg"
       },
       "source_dimensions": {
         "width": 4000,
@@ -155,10 +159,9 @@
     },
     "klasjet": {
       "name": "Klasjet",
-      "source": "source/klasjet.png",
       "svg": {
-        "master": "svg/klasjet.svg",
-        "white": "svg/klasjet_white.svg"
+        "master": "klasjet.svg",
+        "white": "klasjet_white.svg"
       },
       "source_dimensions": {
         "width": 1280,
@@ -168,12 +171,27 @@
         "#A99D72"
       ]
     },
+    "levu_aircargo": {
+      "name": "Levu Air Cargo",
+      "svg": {
+        "master": "levu_aircargo.svg",
+        "white": "levu_aircargo_white.svg"
+      },
+      "colors": [
+        "#ACBE50",
+        "#91A94C",
+        "#7B974E",
+        "#65864F",
+        "#567950",
+        "#3F6651",
+        "#2D594E"
+      ]
+    },
     "scat_airlines": {
       "name": "SCAT Airlines",
-      "source": "source/scat_airlines.jpg",
       "svg": {
-        "master": "svg/scat_airlines.svg",
-        "white": "svg/scat_airlines_white.svg"
+        "master": "scat_airlines.svg",
+        "white": "scat_airlines_white.svg"
       },
       "source_dimensions": {
         "width": 1280,
@@ -185,10 +203,9 @@
     },
     "smartlynx_australia": {
       "name": "SmartLynx Australia",
-      "source": "source/smartlynx_australia.png",
       "svg": {
-        "master": "svg/smartlynx_australia.svg",
-        "white": "svg/smartlynx_australia_white.svg"
+        "master": "smartlynx_australia.svg",
+        "white": "smartlynx_australia_white.svg"
       },
       "source_dimensions": {
         "width": 1200,
@@ -208,10 +225,9 @@
     },
     "smartlynx_estonia": {
       "name": "SmartLynx Estonia",
-      "source": "source/smartlynx_estonia.png",
       "svg": {
-        "master": "svg/smartlynx_estonia.svg",
-        "white": "svg/smartlynx_estonia_white.svg"
+        "master": "smartlynx_estonia.svg",
+        "white": "smartlynx_estonia_white.svg"
       },
       "source_dimensions": {
         "width": 1200,
@@ -231,10 +247,9 @@
     },
     "smartlynx_latvia": {
       "name": "SmartLynx Latvia",
-      "source": "source/smartlynx_latvia.png",
       "svg": {
-        "master": "svg/smartlynx_latvia.svg",
-        "white": "svg/smartlynx_latvia_white.svg"
+        "master": "smartlynx_latvia.svg",
+        "white": "smartlynx_latvia_white.svg"
       },
       "source_dimensions": {
         "width": 1200,
@@ -254,10 +269,9 @@
     },
     "sundair": {
       "name": "Sundair",
-      "source": "source/sundair.png",
       "svg": {
-        "master": "svg/sundair.svg",
-        "white": "svg/sundair_white.svg"
+        "master": "sundair.svg",
+        "white": "sundair_white.svg"
       },
       "source_dimensions": {
         "width": 2560,
@@ -269,10 +283,9 @@
     },
     "tradeair": {
       "name": "TradeAir",
-      "source": "source/tradeair.png",
       "svg": {
-        "master": "svg/tradeair.svg",
-        "white": "svg/tradeair_white.svg"
+        "master": "tradeair.svg",
+        "white": "tradeair_white.svg"
       },
       "source_dimensions": {
         "width": 1605,
